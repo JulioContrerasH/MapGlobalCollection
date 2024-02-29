@@ -1,0 +1,2 @@
+# MapGlobalCollection
+ 
