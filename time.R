@@ -7,10 +7,10 @@ library(forcats) # For ordered factors
 sensors_data <- data.frame(
   Sensor = c("Landsat 1 - MSS", "Landsat 2 - MSS", "Landsat 3 - MSS", 
              "Landsat 4 - MSS", "Landsat 5 - MSS", "Landsat 4 - TM", "Landsat 5 - TM"),
-  Start = as.Date(c("1972-07-23", "1975-01-22", "1978-03-05", 
-                    "1982-07-16", "1984-03-01", "1982-07-16", "1984-03-01")),
-  End = as.Date(c("1978-01-31", "1982-02-25", "1983-03-31", 
-                  "1993-12-31", "1993-12-31", "1993-12-31", "2013-06-05"))
+  Start = as.Date(c("1972-07-26", "1975-01-31", "1978-06-03", 
+                    "1982-08-14", "1984-04-07", "1982-08-22", "1984-04-19")),
+  End = as.Date(c("1978-01-06", "1982-02-03", "1983-02-23", 
+                  "1992-08-28", "2013-01-01", "1993-12-14", "2011-11-08"))
 )
 
 # Convert the 'Sensor' column to an ordered factor based on its unique values

@@ -3,6 +3,8 @@ library(sf)
 library(rgee)
 library(stringr)
 library(ggplot2)
+library(ggplot2)
+library(dplyr)
 library(viridis)
 library(rnaturalearth)
 library(rnaturalearthdata)
@@ -109,4 +111,4 @@ grafico <- ggplot(wrs) +
   labs(title = "Landsat 5 TM Tier 2 Global Acquisitions", fill = NULL)
 
 # Save the plot
-ggsave("export/TM/LANDSAT_LT05_C02_T2_TOA.png", plot = grafico, width = 6, height = 4, units = "in")
+ggsave("export/TM/prueba.png", plot = grafico, width = 6, height = 4, units = "in")
